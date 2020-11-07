@@ -59,7 +59,7 @@ void setup() {
   if (!OLED.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // สั่งให้จอ OLED เริ่มทำงานที่ Address 0x3C
     Serial.println("SSD1306 allocation failed");
   } else {
-    Serial.println("ArdinoAll OLED Start Work !!!");
+    Serial.println("Start");
   }
 
 }
